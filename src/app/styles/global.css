@@ -1,0 +1,16 @@
+/* 전역 스타일은 최소한만 둡니다. 화면별 스타일은 각 컴포넌트의 *.module.css 에 씁니다. */
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Malgun Gothic', 'Apple SD Gothic Neo',
+    'Noto Sans KR', sans-serif;
+  font-size: 13px;
+  -webkit-font-smoothing: antialiased;
+}

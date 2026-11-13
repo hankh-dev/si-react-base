@@ -1,0 +1,22 @@
+/* 왼쪽(마스터) 2 : 오른쪽(디테일) 3 비율로 나눕니다. */
+.split {
+  display: grid;
+  flex: 1;
+  grid-template-columns: 2fr 3fr;
+  gap: 12px;
+  min-height: 0;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+  min-height: 0;
+}
+
+.panelTitle {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 600;
+}

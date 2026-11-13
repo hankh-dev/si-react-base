@@ -1,0 +1,2 @@
+# Windows 에서 체크아웃해도 줄바꿈을 LF 로 유지합니다 (Prettier 검사와 충돌 방지).
+* text=auto eol=lf

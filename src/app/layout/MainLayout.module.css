@@ -1,0 +1,62 @@
+.layout {
+  height: 100vh;
+}
+
+/* ----- 상단 바 ----- */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.user {
+  opacity: 0.85;
+}
+
+/* ----- 좌측 메뉴 ----- */
+.sider {
+  overflow: hidden auto;
+  border-right: 1px solid var(--ant-color-border-secondary, #dfe3ea);
+}
+
+.menu {
+  border-inline-end: none !important;
+}
+
+/* ----- 탭 + 화면 영역 ----- */
+.content {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+}
+
+.tabs {
+  flex: none;
+  padding: 6px 12px 0;
+  background: var(--ant-color-bg-container, #fff);
+}
+
+.tabLabel {
+  user-select: none;
+}
+
+.panes {
+  flex: 1;
+  min-height: 0;
+}
+
+/* 탭 하나의 화면 영역. 숨겨진 탭도 같은 자리에 겹쳐 있다가 활성화될 때만 보입니다. */
+.pane {
+  height: 100%;
+  overflow: auto;
+}

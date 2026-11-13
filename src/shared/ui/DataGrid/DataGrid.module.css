@@ -1,0 +1,29 @@
+/* 부모가 flex 세로 배치이면 남은 높이를, 아니면 부모 높이를 그대로 채웁니다. */
+.root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+.grid {
+  flex: 1;
+  min-height: 200px;
+}
+
+.footer {
+  display: flex;
+  flex: none;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+/* 헤더 글자 정렬 (셀 정렬은 열 정의의 align 으로 처리) */
+.root :global(.dg-header-center .ag-header-cell-label) {
+  justify-content: center;
+}
+
+.root :global(.dg-header-right .ag-header-cell-label) {
+  flex-direction: row-reverse;
+}

@@ -1,0 +1,29 @@
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f2f4f8;
+}
+
+.card {
+  width: 380px;
+}
+
+.title {
+  margin: 0 0 20px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.notice {
+  margin-bottom: 16px;
+}
+
+.hint {
+  margin: 16px 0 0;
+  color: var(--ant-color-text-tertiary, rgba(0, 0, 0, 0.45));
+  font-size: 12px;
+  text-align: center;
+}

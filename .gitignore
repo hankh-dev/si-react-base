@@ -1,0 +1,19 @@
+# 의존성 / 빌드 산출물
+node_modules
+dist
+coverage
+
+# 개인별 환경 파일 (.env.local, .env.development.local 등)
+*.local
+
+# 로그
+logs
+*.log
+npm-debug.log*
+
+# 에디터 / OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
